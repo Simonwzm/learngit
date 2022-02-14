@@ -8,3 +8,4 @@ Creating a new branch is quick and simple.
 Branch name: dev
 we can use git log --graph --pretty=oneline --abbrev-commit to show branches visually
 In which the * represents a unique version.
+new modify in branch de
