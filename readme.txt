@@ -13,3 +13,5 @@ we can use git merge --no-ff -m "xxx" <branch_name>
 to merge a branch without using fast-forward mode, which can 
 preserve the information of this branch if we delete it some day
 (because in this way we handle a commit to record its version information)
+git config --global http.proxy http://127.0.0.1:7890 git config --global https.proxy http://127.0.0.1:7890
+this is used to config proxy fixing git push bugs
